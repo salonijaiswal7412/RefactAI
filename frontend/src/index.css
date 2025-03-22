@@ -1,1 +1,9 @@
 @import "tailwindcss";
+/* Add this in your global CSS file (index.css or App.css) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+  }
+  .scrollbar-hide {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
